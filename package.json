@@ -1,0 +1,9 @@
+{
+  "name": "finitediff_backward",
+  "version": "0.1.0",
+  "repo": "hcnn/finitediff_backward",
+  "description": "Backward Finite Difference Method",
+  "keywords": ["finite differences", "backward fdm", "fdm", "partial differentiation"],
+  "license": "MIT",
+  "src": ["finitediff_backward.c", "finitediff_backward.h"]
+}
