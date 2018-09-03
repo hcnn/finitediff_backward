@@ -1,6 +1,6 @@
 {
   "name": "finitediff_backward",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repo": "hcnn/finitediff_backward",
   "description": "Backward Finite Difference Method",
   "keywords": ["finite differences", "backward fdm", "fdm", "partial differentiation"],

@@ -1,10 +1,12 @@
 #ifndef FINITEDIFF_BACKWARD_H
 #define FINITEDIFF_BACKWARD_H
 
-void finitediff_backward(double (*)(double*, int), 
+#include <stddef.h>
+
+void finitediff_backward(double (*)(const double*, size_t), 
                          double *, 
-                         int , 
-                         double , 
+                         const size_t , 
+                         const double , 
                          double *);
 
 #endif /* FINITEDIFF_BACKWARD_H */
