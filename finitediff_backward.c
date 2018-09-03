@@ -2,8 +2,8 @@
 
 void finitediff_backward(double (*f)(const double*, size_t), 
                          double *x, 
-                         const size_t n, 
-                         const double h, 
+                         size_t n, 
+                         double h, 
                          double *g){
     double tmp;
     double f0 = f(x,n);

@@ -5,8 +5,8 @@
 
 void finitediff_backward(double (*)(const double*, size_t), 
                          double *, 
-                         const size_t , 
-                         const double , 
+                         size_t , 
+                         double , 
                          double *);
 
 #endif /* FINITEDIFF_BACKWARD_H */
